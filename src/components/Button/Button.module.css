@@ -1,0 +1,47 @@
+.primary_button{
+    all: unset;
+    /* width: 150px; */
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #000;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.outline_btn{
+    all: unset;
+    /* width: 150px; */
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: 1px solid #000;
+    font-weight: 600;
+    color: #000;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+    cursor: pointer;
+    width: 95%;
+}
+.submit1{
+    background: #fff;
+    all: unset;
+    border: 2px solid black;
+    padding: 5px 50px 5px;
+    border-radius: 20px;
+    font-weight: 700;
+}
+.submit1:hover{
+    color: #fff;
+    background: #000;
+    transition: all .3s ease-in;
+    font-weight: 600;
+}
